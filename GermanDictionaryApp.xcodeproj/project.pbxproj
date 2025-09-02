@@ -6,37 +6,75 @@
   objects = {
 
 /* Begin PBXBuildFile section */
-    1D1F001001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1F001101 /* ContentView.swift */; };
-    1D1F001002 /* GermanDictionaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1F001201 /* GermanDictionaryApp.swift */; };
-    1D1F001003 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1F001301 /* Data.swift */; };
+    1 /* GermanDictionaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2 /* GermanDictionaryApp.swift */; };
+    3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4 /* ContentView.swift */; };
+    5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-    1D1F001101 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-    1D1F001201 /* GermanDictionaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GermanDictionaryApp.swift; sourceTree = "<group>"; };
-    1D1F001301 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-    1D1F001401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+    2 /* GermanDictionaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GermanDictionaryApp.swift; sourceTree = "<group>"; };
+    4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+    6 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Data.swift; sourceTree = "<group>"; };
+    7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+    8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+    9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Content/Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-    1DEB923808733DC60010E9CD = {
+    10 = {
       isa = PBXGroup;
       children = (
-        1D1F001101 /* ContentView.swift */,
-        1D1F001201 /* GermanDictionaryApp.swift */,
-        1D1F001301 /* Data.swift */,
-        1D1F001401 /* Info.plist */,
+        2 /* GermanDictionaryApp.swift */,
+        4 /* ContentView.swift */,
+        6 /* Data.swift */,
+        7 /* Info.plist */,
+        8 /* Assets.xcassets */,
+        9 /* Preview Assets.xcassets */,
       );
+      path = "";
       sourceTree = "<group>";
     };
 /* End PBXGroup section */
 
+/* Begin PBXSourcesBuildPhase section */
+    11 = {
+      isa = PBXSourcesBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+        1 /* GermanDictionaryApp.swift in Sources */,
+        3 /* ContentView.swift in Sources */,
+        5 /* Data.swift in Sources */,
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXFrameworksBuildPhase section */
+    12 = {
+      isa = PBXFrameworksBuildPhase;
+      buildActionMask = 2147483647;
+      files = ();
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+    13 = {
+      isa = PBXResourcesBuildPhase;
+      buildActionMask = 2147483647;
+      files = ();
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-    1DEB923608733DC60010E9CD /* GermanDictionaryApp */ = {
+    14 = {
       isa = PBXNativeTarget;
-      buildConfigurationList = 1DEB924008733DC60010E9CD /* Build configuration list for GermanDictionaryApp */;
+      buildConfigurationList = 15;
       buildPhases = (
-        1D1F0020 /* Sources */,
+        11,
+        12,
+        13,
       );
       buildRules = ();
       dependencies = ();
@@ -47,46 +85,36 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-    1DEB923508733DC60010E9CD /* Project object */ = {
+    16 = {
       isa = PBXProject;
       attributes = {
         LastUpgradeCheck = 1430;
         TargetAttributes = {
-          1DEB923608733DC60010E9CD = {
+          14 = {
             CreatedOnToolsVersion = 14.3.0;
           };
         };
       };
-      buildConfigurationList = 1DEB923708733DC60010E9CD /* Build configuration list for project GermanDictionaryApp */;
+      buildConfigurationList = 17;
       compatibilityVersion = "Xcode 14.0";
       developmentRegion = en;
+      hasScannedForEncodings = 0;
       knownRegions = (
         en,
         Base,
       );
-      mainGroup = 1DEB923808733DC60010E9CD;
-      productRefGroup = 1DEB923908733DC60010E9CD;
+      mainGroup = 10;
+      productRefGroup = 10;
       projectDirPath = "";
       projectRoot = "";
       targets = (
-        1DEB923608733DC60010E9CD /* GermanDictionaryApp */,
+        14,
       );
     };
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-    1D1F0020 /* Sources */ = {
-      isa = PBXSourcesBuildPhase;
-      files = (
-        1D1F001001 /* ContentView.swift in Sources */,
-        1D1F001002 /* GermanDictionaryApp.swift in Sources */,
-        1D1F001003 /* Data.swift in Sources */,
-      );
-    };
-/* End PBXSourcesBuildPhase section */
-
 /* Begin XCBuildConfiguration section */
-    1DEB924108733DC60010E9CD /* Debug */ = {
+    18 /* Debug */ = {
       isa = XCBuildConfiguration;
       buildSettings = {
         CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -101,7 +129,7 @@
       };
       name = Debug;
     };
-    1DEB924208733DC60010E9CD /* Release */ = {
+    19 /* Release */ = {
       isa = XCBuildConfiguration;
       buildSettings = {
         CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -119,20 +147,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-    1DEB923708733DC60010E9CD /* Build configuration list for project GermanDictionaryApp */ = {
+    15 = {
       isa = XCConfigurationList;
       buildConfigurations = (
-        1DEB924108733DC60010E9CD /* Debug */,
-        1DEB924208733DC60010E9CD /* Release */,
+        18,
+        19,
       );
       defaultConfigurationIsVisible = 0;
       defaultConfigurationName = Release;
     };
-    1DEB924008733DC60010E9CD /* Build configuration list for GermanDictionaryApp */ = {
+    17 = {
       isa = XCConfigurationList;
       buildConfigurations = (
-        1DEB924108733DC60010E9CD /* Debug */,
-        1DEB924208733DC60010E9CD /* Release */,
+        18,
+        19,
       );
       defaultConfigurationIsVisible = 0;
       defaultConfigurationName = Release;
@@ -140,5 +168,5 @@
 /* End XCConfigurationList section */
 
   };
-  rootObject = 1DEB923508733DC60010E9CD /* Project object */;
+  rootObject = 16;
 }
