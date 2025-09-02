@@ -4,9 +4,6 @@ workflows:
     environment:
       xcode: latest
     scripts:
-      - name: Install dependencies
-        script: |
-          pod install --repo-update || true
       - name: Build iOS app
         script: |
           xcodebuild \
@@ -24,6 +21,6 @@ workflows:
             -exportArchive \
             -archivePath $CM_BUILD_DIR/GermanDictionaryApp.xcarchive \
             -exportPath $CM_BUILD_DIR/output \
-            -exportOptionsPlist Info.plist
+            -exportOptionsPlist ExportOptions.plist
     artifacts:
       - $CM_BUILD_DIR/output/*.ipa
