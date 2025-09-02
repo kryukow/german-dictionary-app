@@ -1,0 +1,22 @@
+workflows:
+  ios-build:
+    name: iOS Build
+    environment:
+      xcode: latest
+    scripts:
+      - name: Install dependencies
+        script: |
+          pod install --repo-update || true
+      - name: Build iOS app
+        script: |
+          xcodebuild \
+            -project GermanDictionaryApp.xcodeproj \
+            -scheme GermanDictionaryApp \
+            -sdk iphoneos \
+            -configuration Release \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGNING_ALLOWED=NO
+    artifacts:
+      - build/ios/iphoneos/*.app
+      - build/ios/ipa/*.ipa
