@@ -5,6 +5,54 @@
   objectVersion = 55;
   objects = {
 
+/* Begin PBXBuildFile section */
+    1D1F001001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1F001100 /* ContentView.swift */; };
+    1D1F001002 /* GermanDictionaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1F001200 /* GermanDictionaryApp.swift */; };
+    1D1F001003 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1F001300 /* Data.swift */; };
+    1D1F001004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D1F001400 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+    1D1F001100 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+    1D1F001200 /* GermanDictionaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GermanDictionaryApp.swift; sourceTree = "<group>"; };
+    1D1F001300 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Data.swift; sourceTree = "<group>"; };
+    1D1F001400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets"; sourceTree = "<group>"; };
+    1D1F001500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+    1DEB923808733DC60010E9CD = {
+      isa = PBXGroup;
+      children = (
+        1D1F001100 /* ContentView.swift */,
+        1D1F001200 /* GermanDictionaryApp.swift */,
+        1D1F001300 /* Data.swift */,
+        1D1F001400 /* Assets.xcassets */,
+        1D1F001500 /* Info.plist */,
+      );
+      sourceTree = "<group>";
+    };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+    1DEB923608733DC60010E9CD /* GermanDictionaryApp */ = {
+      isa = PBXNativeTarget;
+      buildConfigurationList = 1DEB924008733DC60010E9CD /* Build configuration list for GermanDictionaryApp */;
+      buildPhases = (
+        1D1F0020 /* Sources */,
+        1D1F0021 /* Frameworks */,
+        1D1F0022 /* Resources */,
+      );
+      buildRules = (
+      );
+      dependencies = (
+      );
+      name = GermanDictionaryApp;
+      productName = GermanDictionaryApp;
+      productType = "com.apple.product-type.application";
+    };
+/* End PBXNativeTarget section */
+
 /* Begin PBXProject section */
     1DEB923508733DC60010E9CD /* Project object */ = {
       isa = PBXProject;
@@ -16,10 +64,9 @@
           };
         };
       };
-      buildConfigurationList = 1DEB923708733DC60010E9CD /* Build configuration list */;
+      buildConfigurationList = 1DEB923708733DC60010E9CD /* Build configuration list for Project */;
       compatibilityVersion = "Xcode 14.0";
       developmentRegion = en;
-      hasScannedForEncodings = 0;
       knownRegions = (
         en,
         Base,
@@ -34,21 +81,33 @@
     };
 /* End PBXProject section */
 
-/* Begin PBXNativeTarget section */
-    1DEB923608733DC60010E9CD /* GermanDictionaryApp */ = {
-      isa = PBXNativeTarget;
-      buildConfigurationList = 1DEB924008733DC60010E9CD /* Build configuration list */;
-      buildPhases = (
+/* Begin PBXSourcesBuildPhase section */
+    1D1F0020 /* Sources */ = {
+      isa = PBXSourcesBuildPhase;
+      files = (
+        1D1F001001 /* ContentView.swift in Sources */,
+        1D1F001002 /* GermanDictionaryApp.swift in Sources */,
+        1D1F001003 /* Data.swift in Sources */,
       );
-      buildRules = (
-      );
-      dependencies = (
-      );
-      name = GermanDictionaryApp;
-      productName = GermanDictionaryApp;
-      productType = "com.apple.product-type.application";
     };
-/* End PBXNativeTarget section */
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXFrameworksBuildPhase section */
+    1D1F0021 /* Frameworks */ = {
+      isa = PBXFrameworksBuildPhase;
+      files = (
+      );
+    };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+    1D1F0022 /* Resources */ = {
+      isa = PBXResourcesBuildPhase;
+      files = (
+        1D1F001004 /* Assets.xcassets in Resources */,
+      );
+    };
+/* End PBXResourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
     1DEB924108733DC60010E9CD /* Debug */ = {
@@ -84,7 +143,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-    1DEB923708733DC60010E9CD /* Build configuration list */ = {
+    1DEB923708733DC60010E9CD /* Build configuration list for Project */ = {
       isa = XCConfigurationList;
       buildConfigurations = (
         1DEB924108733DC60010E9CD /* Debug */,
@@ -93,7 +152,7 @@
       defaultConfigurationIsVisible = 0;
       defaultConfigurationName = Release;
     };
-    1DEB924008733DC60010E9CD /* Build configuration list */ = {
+    1DEB924008733DC60010E9CD /* Build configuration list for GermanDictionaryApp */ = {
       isa = XCConfigurationList;
       buildConfigurations = (
         1DEB924108733DC60010E9CD /* Debug */,
