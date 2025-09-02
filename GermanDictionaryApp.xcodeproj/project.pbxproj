@@ -9,6 +9,7 @@
     1 /* GermanDictionaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2 /* GermanDictionaryApp.swift */; };
     3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4 /* ContentView.swift */; };
     5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6 /* Data.swift */; };
+    20 /* WordListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21 /* WordListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
     7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
     8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
     9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Content/Preview Assets.xcassets"; sourceTree = "<group>"; };
+    21 /* WordListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -27,6 +29,7 @@
         2 /* GermanDictionaryApp.swift */,
         4 /* ContentView.swift */,
         6 /* Data.swift */,
+        21 /* WordListView.swift */,
         7 /* Info.plist */,
         8 /* Assets.xcassets */,
         9 /* Preview Assets.xcassets */,
@@ -44,6 +47,7 @@
         1 /* GermanDictionaryApp.swift in Sources */,
         3 /* ContentView.swift in Sources */,
         5 /* Data.swift in Sources */,
+        20 /* WordListView.swift in Sources */,
       );
       runOnlyForDeploymentPostprocessing = 0;
     };
