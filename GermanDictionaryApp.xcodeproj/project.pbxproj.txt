@@ -1,0 +1,109 @@
+// !$*UTF8*$!
+{
+  archiveVersion = 1;
+  classes = {};
+  objectVersion = 55;
+  objects = {
+
+/* Begin PBXProject section */
+    1DEB923508733DC60010E9CD /* Project object */ = {
+      isa = PBXProject;
+      attributes = {
+        LastUpgradeCheck = 1430;
+        TargetAttributes = {
+          1DEB923608733DC60010E9CD = {
+            CreatedOnToolsVersion = 14.3.0;
+          };
+        };
+      };
+      buildConfigurationList = 1DEB923708733DC60010E9CD /* Build configuration list */;
+      compatibilityVersion = "Xcode 14.0";
+      developmentRegion = en;
+      hasScannedForEncodings = 0;
+      knownRegions = (
+        en,
+        Base,
+      );
+      mainGroup = 1DEB923808733DC60010E9CD;
+      productRefGroup = 1DEB923908733DC60010E9CD;
+      projectDirPath = "";
+      projectRoot = "";
+      targets = (
+        1DEB923608733DC60010E9CD /* GermanDictionaryApp */,
+      );
+    };
+/* End PBXProject section */
+
+/* Begin PBXNativeTarget section */
+    1DEB923608733DC60010E9CD /* GermanDictionaryApp */ = {
+      isa = PBXNativeTarget;
+      buildConfigurationList = 1DEB924008733DC60010E9CD /* Build configuration list */;
+      buildPhases = (
+      );
+      buildRules = (
+      );
+      dependencies = (
+      );
+      name = GermanDictionaryApp;
+      productName = GermanDictionaryApp;
+      productType = "com.apple.product-type.application";
+    };
+/* End PBXNativeTarget section */
+
+/* Begin XCBuildConfiguration section */
+    1DEB924108733DC60010E9CD /* Debug */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        CODE_SIGN_IDENTITY = "iPhone Developer";
+        CURRENT_PROJECT_VERSION = 1;
+        GENERATE_INFOPLIST_FILE = YES;
+        INFOPLIST_FILE = Info.plist;
+        IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+        PRODUCT_BUNDLE_IDENTIFIER = com.roman.germandictionary;
+        PRODUCT_NAME = GermanDictionaryApp;
+        SWIFT_VERSION = 5.0;
+        TARGETED_DEVICE_FAMILY = "1,2";
+      };
+      name = Debug;
+    };
+    1DEB924208733DC60010E9CD /* Release */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        CODE_SIGN_IDENTITY = "iPhone Developer";
+        CURRENT_PROJECT_VERSION = 1;
+        GENERATE_INFOPLIST_FILE = YES;
+        INFOPLIST_FILE = Info.plist;
+        IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+        PRODUCT_BUNDLE_IDENTIFIER = com.roman.germandictionary;
+        PRODUCT_NAME = GermanDictionaryApp;
+        SWIFT_VERSION = 5.0;
+        TARGETED_DEVICE_FAMILY = "1,2";
+      };
+      name = Release;
+    };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+    1DEB923708733DC60010E9CD /* Build configuration list */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        1DEB924108733DC60010E9CD /* Debug */,
+        1DEB924208733DC60010E9CD /* Release */,
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+    1DEB924008733DC60010E9CD /* Build configuration list */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        1DEB924108733DC60010E9CD /* Debug */,
+        1DEB924208733DC60010E9CD /* Release */,
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+/* End XCConfigurationList section */
+
+  };
+  rootObject = 1DEB923508733DC60010E9CD /* Project object */;
+}
